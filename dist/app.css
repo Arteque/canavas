@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+canvas{
+   position:absolute;
+   top: 0;
+   left: 0;
+   /* opacity: 0.5; */
+   /* border-inline:5px solid red; */
+}
+.wrapper{
+    position:relative;
+    max-width:70%;
+    margin-inline:auto;
+    overflow:hidden;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hideit{
+    opacity: 0;
+}
